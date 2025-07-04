@@ -9,14 +9,34 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/cli": "^18.0.0",
+    "@react-native-community/slider": "^4.5.6",
+    "@react-navigation/material-bottom-tabs": "^6.2.29",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.3.20",
     "expo": "~53.0.17",
+    "expo-av": "~15.1.7",
+    "expo-file-system": "~18.1.11",
+    "expo-local-authentication": "~16.0.5",
+    "expo-notifications": "~0.31.3",
+    "expo-sharing": "~13.1.5",
+    "expo-sqlite": "~15.2.13",
     "expo-status-bar": "~2.2.3",
+    "metro-core": "^0.82.4",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "react-native-date-picker": "^5.0.13",
+    "react-native-image-crop-picker": "^0.50.1",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "expo-dev-client": "~5.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
+    "@types/react-native-vector-icons": "^6.4.18",
     "typescript": "~5.8.3"
   },
   "private": true
