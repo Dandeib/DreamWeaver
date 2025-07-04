@@ -100,7 +100,7 @@ const ToolsScreen = () => {
     }
     await cancelAllTotems(); 
     const firstREMStartTimeInMinutes = 270; 
-    const remPhaseDurationInMinutes = 45;
+    const remPhaseDurationInMinutes = 120;
     const calculatedInterval = totemAmount > 1 ? remPhaseDurationInMinutes / (totemAmount - 1) : 0;
     for (let i = 0; i < totemAmount; i++) {
       const delayInMinutes = i * calculatedInterval;
@@ -225,7 +225,7 @@ const ToolsScreen = () => {
             thumbTintColor={colors.accent}
           />
           <Paragraph style={styles.disabledText}>
-            Die Töne werden automatisch über eine 45-minütige REM-Phase verteilt.
+            Die Töne werden automatisch über eine 120-minütige REM-Phase verteilt.
           </Paragraph>
           <Button 
             mode="contained" 
